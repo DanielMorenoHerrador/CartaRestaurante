@@ -69,3 +69,21 @@ body {margin: 0 0 0 0;
     flex-direction: column;
     justify-content: center;
 }
+
+@media (max-width: 800px){
+    .container{
+        width: 200vw;
+    } 
+    
+    .row-sup{
+        height: 30vw;
+        flex-direction: column;
+    }
+     .col-sup{
+         display: flex;
+         flex-direction: column;
+    }
+    .row-med{
+        height: 20cm;
+    }
+}

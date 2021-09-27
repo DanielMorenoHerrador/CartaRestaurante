@@ -6,9 +6,12 @@ body {margin: 0 0 0 0;
 
 .container {
     background-color: white;
-    height: 49vw;
+    height: auto;
     border: solid;
     border-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /* FILA Y COLUMNAS SUPERIORES */
@@ -17,6 +20,7 @@ body {margin: 0 0 0 0;
     height: 3vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 120%;
 }
 
 .col-sup-izq {
@@ -30,6 +34,7 @@ body {margin: 0 0 0 0;
     font-size: large;
     font-family: fantasy;
     font-style: italic;
+    min-width: 300px;
 }
 
 .col-sup-med {
@@ -42,6 +47,7 @@ body {margin: 0 0 0 0;
     font-size: xx-large;
     font-family: fantasy;
     font-style: italic;
+    min-width: 300px;
 }
 
 .col-sup-der {
@@ -55,6 +61,7 @@ body {margin: 0 0 0 0;
     font-style: italic;
     font-size: large;
     font-family: fantasy; 
+    min-width: 300px;
 }
 
 
@@ -68,6 +75,7 @@ body {margin: 0 0 0 0;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    min-width: 300px;
 }
 
 .row-med-sup {
@@ -75,12 +83,14 @@ body {margin: 0 0 0 0;
     padding-top: 2vw;
     text-align: center;
     font-size: large;
+    min-width: 300px;
 }
 
 .row-med-inf {
     height: 27.5vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    min-width: 300px;
 }
 
 .col-inf-med {
@@ -89,4 +99,26 @@ body {margin: 0 0 0 0;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    min-width: 300px;
+}
+
+@media (max-width: 800px){
+    .container{
+        width: 200vw;
+    } 
+    
+    .row-sup{
+        height: 30vw;
+    }
+     .col-sup{
+         display: flex;
+         flex-direction: column;
+    }
+    .row-med{
+        height: 30cm;
+    }
+    .row-med-sup{
+        height: 15cm;
+    }
+    
 }
