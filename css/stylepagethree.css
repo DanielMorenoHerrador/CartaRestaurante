@@ -1,0 +1,67 @@
+/* Autor: Daniel Moreno Herrador
+Fecha: 26/09/2021*/
+
+body {margin: 0 0 0 0;
+}
+
+.container {
+    background-color: white;
+    height: 49vw;
+    border: solid;
+    border-color: black;
+}
+
+/* FILA Y COLUMNAS SUPERIORES */
+.row-sup {
+    background-color: black;
+    height: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-sup-izq {
+    background-color: black;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 1vw;
+    font-size: large;
+    font-family: fantasy;
+    font-style: italic;
+}
+.col-sup-med {
+    background-color: black;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    font-size: x-large;
+    font-family: fantasy;
+    font-style: italic;
+}
+.col-sup-der {
+    background-color: black;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 1vw;
+    font-style: italic;
+    font-size: large;
+    font-family: fantasy; 
+}
+
+/* FILA Y COLUMNAS DEL MEDIO */
+.row-med {
+    background-color: white;
+    height: 45.5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
