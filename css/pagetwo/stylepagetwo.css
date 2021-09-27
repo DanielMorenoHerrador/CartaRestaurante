@@ -18,6 +18,7 @@ body {margin: 0 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .col-sup-izq {
     background-color: black;
     height: 3vw;
@@ -30,6 +31,7 @@ body {margin: 0 0 0 0;
     font-family: fantasy;
     font-style: italic;
 }
+
 .col-sup-med {
     background-color: black;
     height: 3vw;
@@ -41,6 +43,7 @@ body {margin: 0 0 0 0;
     font-family: fantasy;
     font-style: italic;
 }
+
 .col-sup-der {
     background-color: black;
     height: 3vw;
@@ -54,6 +57,7 @@ body {margin: 0 0 0 0;
     font-family: fantasy; 
 }
 
+
 /* FILA Y COLUMNAS DEL MEDIO */
 .row-med {
     background-color: white;
@@ -65,6 +69,7 @@ body {margin: 0 0 0 0;
     flex-direction: column;
     justify-content: center;
 }
+
 .row-med-sup {
     height: 5.5vw;
     background-color: white;
@@ -76,18 +81,21 @@ body {margin: 0 0 0 0;
     font-style: italic;
     font-family: fantasy; 
 }
+
 .row-med-med {
     height: 20vw;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .row-med-inf {
     height: 20vw;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .col-med-sup-izq {
     display: flex;
     align-items: center;
@@ -97,6 +105,7 @@ body {margin: 0 0 0 0;
     font-style: italic;
     font-family: fantasy;
 }
+
 .col-med-sup-der {
     display: flex;
     align-items: center;
@@ -106,6 +115,7 @@ body {margin: 0 0 0 0;
     font-style: italic;
     font-family: fantasy;
 }
+
 .col-med-inf-izq {
     display: flex;
     align-items: center;
@@ -115,6 +125,7 @@ body {margin: 0 0 0 0;
     font-style: italic;
     font-family: fantasy;
 }
+
 .col-med-inf-der {
     display: flex;
     align-items: center;

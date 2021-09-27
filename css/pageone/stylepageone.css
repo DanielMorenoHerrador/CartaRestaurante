@@ -18,6 +18,7 @@ body {margin: 0 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .col-sup-izq {
     background-color: black;
     height: 3vw;
@@ -30,6 +31,7 @@ body {margin: 0 0 0 0;
     font-family: fantasy;
     font-style: italic;
 }
+
 .col-sup-med {
     background-color: black;
     height: 3vw;
@@ -41,6 +43,7 @@ body {margin: 0 0 0 0;
     font-family: fantasy;
     font-style: italic;
 }
+
 .col-sup-der {
     background-color: black;
     height: 3vw;
@@ -54,6 +57,7 @@ body {margin: 0 0 0 0;
     font-family: fantasy; 
 }
 
+
 /* FILA Y COLUMNAS DEL MEDIO */
 .row-med {
     background-color: white;
@@ -65,17 +69,20 @@ body {margin: 0 0 0 0;
     flex-direction: column;
     justify-content: center;
 }
+
 .row-med-sup {
     height: 18vw;
     padding-top: 2vw;
     text-align: center;
     font-size: large;
 }
+
 .row-med-inf {
     height: 27.5vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .col-inf-med {
     width: 29vw;
     display: flex;
